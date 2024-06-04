@@ -6,7 +6,7 @@
   "scripts": {
     "start": "ts-node src/api.ts",
     "dev": "nodemon src/api.ts",
-    "build": "netlify-lambda build express",
+    "build": "netlify-lambda build src",
     "start:dist": "node dist/src/api.js",
     "lint": "eslint --fix src test",
     "test": "jest",
