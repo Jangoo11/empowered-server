@@ -1,6 +1,6 @@
 import express from 'express';
 import admin from "firebase-admin";
-import firebaseConfig from '../config/firebase.json';
+import firebaseConfig from './config/firebase.json';
 
 const router = express.Router();
 

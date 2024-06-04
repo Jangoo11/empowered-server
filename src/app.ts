@@ -1,7 +1,7 @@
 import express from 'express';
 import helmet from 'helmet';
 
-import api from './api';
+import api from './user-api';
 import cors from 'cors';
 
 require('dotenv').config();
